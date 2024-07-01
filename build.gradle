@@ -111,8 +111,8 @@ publishing {
 }
 
 // TODO: infer from fabric.mod.json?!
-def supportedVersions = ["1.20.1", "1.20.6"]
-def verName = "Indium ${project.mod_version} for Minecraft 1.20.1/1.20.6 Sodium 0.5.9/0.5.10"
+def supportedVersions = ["1.20.1", "1.20.5", "1.20.6"]
+def verName = "Indium ${project.mod_version} for Minecraft 1.20.x / Sodium 0.5.11"
 
 // Check version is as expected
 if (System.getenv("EXPECTED_VERSION") !== null) {
